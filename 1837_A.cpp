@@ -11,9 +11,11 @@ int main(){
         cin>>k;
         int x=a%k;
         if(x!=0){
+            cout<<"1"<<endl;
             cout<<a<<"\n";
         }else{
-            cout<<a-1+" "+1<<"\n";
+            cout<<"2"<<endl;
+            cout << a - 1 << " " << 1 << "\n";  
         }
     }
 }
